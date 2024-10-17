@@ -7,21 +7,27 @@
     <title>Informações de contato</title>
 </head>
 <body>
-    <div>
+    <div class="header-menu">
         <input type="checkbox" class="toggler" id="toggler">
         <label for="toggler" class="toggler-label">
             <span class="ball"></span>
             <i class="moon">☾</i>
             <i class="sun">☀</i>
         </label>
+        <nav>
+            <ul>
+                <a href="" onclick="changeLanguage('en')" class="btn-lang" id="btn-en">EN</a>
+                <a href="" onclick="changeLanguage('pt')" class="btn-lang" id="btn-pt">PT</a>
+            </ul>
+        </nav>
     </div>
     <main>
         <div class="present-infos">
-            <h2 class="subtittle">Formas de entrar em contato comigo</h2>
+            <h2 class="subtittle" data-i18n="contato-title">Formas de entrar em contato comigo</h2>
         </div>
         <div class="presntation">
             <div class="links">
-                <a href="https://gitub.com/MarlonSdS" class="contato">Github</a>
+                <a href="https://github.com/MarlonSdS" class="contato">Github</a>
             </div>
             <div class="links">
                 <a href="https://wa.me/5588996469864" target="_blank" class="contato">Whatsapp</a>
@@ -40,5 +46,6 @@
         </div>
     </main>
     <script src="../script.js"></script>
+    <script src="../lang/lang.js"></script>
 </body>
 </html>

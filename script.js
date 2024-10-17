@@ -81,7 +81,7 @@ function toHome(){
     button.href = "/index.html"
     button.classList.add("tohome")
     button.title = "Voltar para o início"
-    button.text = "⌂"
+    button.text = "◁"
 
     body.appendChild(button)
 }

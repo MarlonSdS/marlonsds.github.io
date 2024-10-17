@@ -7,7 +7,7 @@
     <title>Marlon Santos － Portfólio</title>
 </head>
 <body>
-    <div>
+    <div class="header-menu">
         <input type="checkbox" class="toggler" id="toggler">
         <label for="toggler" class="toggler-label">
             <span class="ball">
@@ -15,14 +15,21 @@
             <i class="moon" id="moon">☾</i>
             <i class="sun" id="sun">☀</i>
         </label>
+        <nav>
+            <ul>
+                <a href="index.html" onclick="changeLanguage('en')" class="btn-lang" id="btn-en">EN</a>
+                <a href="index.html" onclick="changeLanguage('pt')" class="btn-lang" id="btn-pt">PT</a>
+            </ul>
+        </nav>
     </div>
+    
     <main>
         <h1 class="subtittle">Marlon Santana dos Santos</h1>
         <div class="present-infos">
             <div class="texto">
-                <h2 class="subtittle">💻 Desenvolvedor fullstack</h2>
-                <h2 class="subtittle">🎓 Formado na UniLeão</h2>
-                <h2 class="subtittle">📍 Icó - CE</h2>
+                <h2 class="subtittle" data-i18n="hpi1">💻 Fullstack Developer</h2>
+                <h2 class="subtittle" data-i18n="hpi2">🎓 Univeridade Dr. Leão Sampaio</h2>
+                <h2 class="subtittle" data-i18n="hpi3">📍 Icó - CE, Brazil🇧🇷</h2>
             </div>
             <div class="profpic">
                 <img src="./public/face.jpeg" alt="Marlon Santana dos Santos">
@@ -30,25 +37,20 @@
             
         </div>
         <div class="presentation">
-            <p>Olá, chamo Marlon dos Santos, sou um desenvolvedor iniciante recém formado em
-                análise e desenvolvimento de sistemas. Nascí em Icó, no interior do Ceará e me 
-                formei em uma universidade do grupo UniLeão. Estou procurando novas oportunidades para
-                 meu início de carreira, atualmente 
-                desenvolvo principalmente em javascript com foco em node e Vue e estou estudando
-                 Python e C++ também. Te convido à conferir mais algumas informações, como 
-                meus trabalhos anteriores e minha formação, clicando nos links aqui em baixo.</p>
+            <p data-i18n="hp"></p>
         </div>
         
         <div class="links">
-            <a href="./pages/contato.html">Informações de contato</a>
-            <a href="./public/curriculo.pdf" target="_blank">Currículo em PDF</a>
-            <a href="./pages/faculdade.html">Formação</a>
-            <a href="./pages/trabalho.html">Experiência profissional</a>
-            <a href="./pages/skils.html">Linguagens e skills</a>
+            <a href="./pages/contato.html" data-i18n="hl1">Informações de contato</a>
+            <div data-i18n="hl2"><a href="./public/curriculo.pdf" target="_blank" >Currículo em PDF</a></div>
+            <a href="./pages/faculdade.html"  data-i18n="hl3">Formação</a>
+            <a href="./pages/trabalho.html" data-i18n="hl4">Experiência profissional</a>
+            <a href="./pages/skils.html" data-i18n="hl5">Linguagens e skills</a>
         </div>
 
     </main>
 
     <script src="./script.js"></script>
+    <script src="./lang/lang.js"></script>
 </body>
 </html>
