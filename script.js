@@ -6,7 +6,7 @@ let head = document.querySelector('head');
 let body = document.querySelector('body');
 
 favicon();
-toHome();
+//toHome();
 changeTheme();
 
 $toggle.addEventListener('change', function(){
@@ -75,13 +75,13 @@ function favicon(){
     head.appendChild(icon)
 }
 
-function toHome(){
+/*function toHome(){
     //adiciona o botão de voltar pro início em cada página
     let button = document.createElement("a")
     button.href = "/index.html"
     button.classList.add("tohome")
     button.title = "Voltar para o início"
-    button.text = "◁"
+    button.innerHTML = "<img src='/public/icons/back.svg'/>"
 
     body.appendChild(button)
-}
+}*/
