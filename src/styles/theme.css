@@ -1,0 +1,57 @@
+/* Catppuccin: Latte (claro) e Mocha (escuro). https://catppuccin.com/palette */
+:root[data-theme='light'] {
+  color-scheme: light;
+  --base: #eff1f5;
+  --mantle: #e6e9ef;
+  --surface0: #ccd0da;
+  --surface1: #bcc0cc;
+  --text: #4c4f69;
+  --subtext: #6c6f85;
+  --accent: #1e66f5; /* blue */
+  --accent-2: #8839ef; /* mauve */
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --surface0: #313244;
+  --surface1: #45475a;
+  --text: #cdd6f4;
+  --subtext: #a6adc8;
+  --accent: #89b4fa; /* blue */
+  --accent-2: #cba6f7; /* mauve */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--base);
+  color: var(--text);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
