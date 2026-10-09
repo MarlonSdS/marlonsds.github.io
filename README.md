@@ -17,6 +17,3 @@ npm run preview  # abre o build local
 - `src/styles/theme.css`: cores dos dois temas.
 - `public/`: foto (troque `face.svg`), `curriculo.pdf`.
 
-## Deploy
-
-Settings → Pages → Source: **GitHub Actions**. A cada push na `main`, `.github/workflows/deploy.yml` faz o build e publica.
