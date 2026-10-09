@@ -13,23 +13,28 @@ export const pt: Content = {
     { label: 'GitHub', value: 'github.com/MarlonSdS', href: 'https://github.com/MarlonSdS' },
     { label: 'LinkedIn', value: 'linkedin.com/in/marlon-dos-santos-17469417b', href: 'https://www.linkedin.com/in/marlon-dos-santos-17469417b' },
   ],
-  resume: { label: 'Currículo em PDF', href: '/curriculo.pdf' }, // coloque o arquivo em public/
+  resume: { label: 'Currículo em PDF', href: '/curriculo.pdf' }, 
   sections: { experience: 'Experiência profissional', education: 'Formação' },
   experience: [
     {
-      title: 'Desenvolvedor (temporário)',
-      place: 'Secretaria de Saúde',
-      period: 'Período a definir',
+      title: 'Desenvolvedor Fullstack',
+      place: 'Brup EdTech',
+      period: 'novembro de 2024 a agosto de 2026',
       description:
-        'Análise e correção de um banco de dados legado da secretaria e integração dele ao sistema da secretaria por meio de uma API fornecida pela equipe.',
+        `Atuei como desenvolvedor fullstack desenvolvendo e mantendo sites de ensino a distância. Minhas principais responsabilidades
+        incluíam a o desenvolvimento de uma nova plataforma de cursos online, a manutenção de sites existentes, a integração com APIs de
+        plataformas de pagamentos e a implementação de novos visuais e funcionalidades para os sites. O site em que mais trabalhei
+        e é o destaque da empresa foi o Ineves, plataforma de cursos para estudantes e profissionais de enfermagem. Pode ser acessado
+        em: https://ineves.com.br`,
+      image: { src: '/works/ineves.webp', alt: 'Imagem do site Ineves' },
     },
   ],
   education: [
     {
       title: 'Análise e Desenvolvimento de Sistemas',
       place: 'Universidade Dr. Leão Sampaio (UniLeão)',
-      period: 'Período a definir',
+      period: '2019 a 2022',
     },
   ],
-  ui: { theme: 'Alternar tema claro/escuro', language: 'Idioma' },
+  ui: { theme: 'Alternar tema claro/escuro', language: 'Idioma', image: 'Mostrar imagem complementar' },
 }

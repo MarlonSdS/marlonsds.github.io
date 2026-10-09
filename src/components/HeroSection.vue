@@ -64,10 +64,15 @@ h1 {
   padding: 0;
   display: grid;
   gap: 0.25rem;
+  max-width: 100%;
 }
 .contacts li {
   display: flex;
   gap: 0.75rem;
+}
+.contacts li a {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .contacts span {
   min-width: 5.5rem;

@@ -17,19 +17,23 @@ export const en: Content = {
   sections: { experience: 'Professional experience', education: 'Education' },
   experience: [
     {
-      title: 'Developer (temporary)',
-      place: 'Municipal Health Department',
-      period: 'Period to be defined',
+      title: 'Fullstack Developer',
+      place: 'Brup EdTech',
+      period: 'november 2024 to august 2026',
       description:
-        "Analyzed and fixed a legacy database used by the department, then integrated it into the department's system through an API provided by the team.",
+        `I worked as a fullstack developer developing and maintaining distance learning websites. My main responsibilities included
+         the development of a new online course platform, the maintenance of existing websites, integration with payment platform APIs,
+         and the implementation of new visuals and functionalities for the websites. The website I worked on the most and is the company's 
+         highlight was Ineves, a course platform for nursing students and professionals. It can be accessed at: https://ineves.com.br`,
+      image: { src: '/works/ineves.webp', alt: 'Imagem do site Ineves' },
     },
   ],
   education: [
     {
       title: 'Systems Analysis and Development',
-      place: 'Universidade Dr. Leão Sampaio (UniLeão)',
-      period: 'Period to be defined',
+      place: 'University Dr. Leão Sampaio (UniLeão)',
+      period: '2019 to 2022',
     },
   ],
-  ui: { theme: 'Toggle light/dark theme', language: 'Language' },
+  ui: { theme: 'Toggle light/dark theme', language: 'Language', image: 'Show complementary image' },
 }

@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import { useLocale } from '../composables/useLocale';
 import type { TimelineItem } from '../content/types'
 
 defineProps<{ title: string; items: TimelineItem[] }>()
+const { content } = useLocale()
 </script>
 
 <template>
@@ -11,6 +13,10 @@ defineProps<{ title: string; items: TimelineItem[] }>()
       <h3>{{ item.title }}</h3>
       <p class="meta">{{ item.place }} — {{ item.period }}</p>
       <p v-if="item.description">{{ item.description }}</p>
+      <details v-if="item.image" class="media">
+        <summary>{{ content.ui.image }}</summary>
+        <img :src="item.image.src" :alt="item.image.alt" loading="lazy" />
+      </details>
     </article>
   </section>
 </template>
@@ -39,6 +45,16 @@ h3 {
 }
 p {
   margin: 0;
-  max-width: 65ch;
+  max-width: 56rem;
+}
+.media { margin-top: 0.75rem; }
+.media summary { cursor: pointer; color: var(--accent); width: fit-content; }
+.media img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--surface1);
 }
 </style>

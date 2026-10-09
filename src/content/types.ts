@@ -5,6 +5,7 @@ export interface TimelineItem {
   place: string
   period: string
   description?: string
+  image?: { src: string; alt: string }
 }
 
 export interface Content {
@@ -18,5 +19,5 @@ export interface Content {
   sections: { experience: string; education: string }
   experience: TimelineItem[]
   education: TimelineItem[]
-  ui: { theme: string; language: string }
+  ui: { theme: string; language: string; image: string }
 }
