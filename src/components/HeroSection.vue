@@ -16,10 +16,14 @@ const photo = `${import.meta.env.BASE_URL}face.jpeg` // troque por sua foto em p
       <ul class="contacts">
         <li v-for="c in content.contacts" :key="c.label">
           <span>{{ c.label }}</span>
-          <a :href="c.href">{{ c.value }}</a>
+          <a :href="c.href" target="_blank" rel="noopener noreferrer">
+            {{ c.value }}
+          </a>
         </li>
       </ul>
-      <a class="button" :href="content.resume.href">{{ content.resume.label }}</a>
+      <a class="button" :href="content.resume.href" target="_blank" rel="noopener noreferrer">
+        {{ content.resume.label }}
+      </a>
     </div>
   </section>
 </template>

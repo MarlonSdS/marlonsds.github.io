@@ -5,14 +5,15 @@ export const en: Content = {
   htmlLang: 'en',
   name: 'Marlon Santana dos Santos',
   role: 'Fullstack developer',
-  location: 'Icó, CE — Brazil',
-  bio: "I'm a junior developer with a degree in Systems Analysis and Development. I was born in Icó, in the countryside of Ceará, and I'm looking for new opportunities for my career. My focus is web development.",
+  location: 'Juazeiro do Norte, CE — Brazil',
+  bio: "I'm a junior developer with a degree in Systems Analysis and Development. I was born in Icó, in the countryside of Ceará, Brazil, and I'm looking for new opportunities for my career. My focus is web development.",
   contacts: [
-    { label: 'Email', value: 'your-email@example.com', href: 'mailto:your-email@example.com' },
+    { label: 'E-mail', value: 'marlon.sd.santos@protonmail.com', href: 'mailto:marlon.sd.santos@protonmail.com' },
+    { label: 'Cellphone', value: '+55 88 9 9646-9864', href: 'https://wa.me/5588996469864' },
     { label: 'GitHub', value: 'github.com/MarlonSdS', href: 'https://github.com/MarlonSdS' },
-    { label: 'LinkedIn', value: 'linkedin.com/in/your-profile', href: 'https://linkedin.com/in/your-profile' },
+    { label: 'LinkedIn', value: 'linkedin.com/in/marlon-dos-santos-17469417b', href: 'https://www.linkedin.com/in/marlon-dos-santos-17469417b' },
   ],
-  resume: { label: 'Resume (PDF)', href: '/curriculo.pdf' },
+  resume: { label: 'Resume (PDF)', href: '/resume.pdf' },
   sections: { experience: 'Professional experience', education: 'Education' },
   experience: [
     {
