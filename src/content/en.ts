@@ -27,6 +27,40 @@ export const en: Content = {
          highlight was Ineves, a course platform for nursing students and professionals. It can be accessed at: https://ineves.com.br`,
       image: { src: '/works/ineves.webp', alt: 'Imagem do site Ineves' },
     },
+    {
+      title: 'Freelance System Analyst and Developer',
+      place: 'Icó City Hall',
+      period: 'january 2024 to april 2024',
+      description:
+      `I worked as a freelance system analyst and developer for the Icó City Hall, helping to fix and improve some legacy systems they 
+      had. My main responsibilities included updating the communication with API's, fixing bugs, and implementing new features.`
+    },
+    {
+      title: 'Web Development Intern',
+      place: 'Grupo Intra EaD',
+      period: 'april 2022 to march 2023',
+      description:
+      `I worked as a web development intern at Grupo Intra EaD, the group that owns Brup EdTech, the company where I recently worked. 
+      My main job was to assist in updating an online course website, mainly on the front-end side, but also helping on the back-end side.`
+    },
+    {
+      title: 'Intern',
+      place: 'Fábrica de Software (Software Factory)',
+      period: 'august 2019 to november 2021',
+      description:
+      `I was an intern at a project of my university called Fábrica de Software (Software Factory). Me and my colleagues were 
+      responsible for developing different systems for the university and partner institutions. Our main project during my time there 
+      was the reformulation of sytem owned by our city's health department, which had many integrations with systems of SUS 
+      (Brazilian Unified Health System).`
+    },
+    {
+      title: 'Intern',
+      place: 'LC Informática',
+      period: 'february 2018 to october 2018',
+      description:
+      `The internship at the end of my high school course. I worked at the computer assistance and parts company LC Informática, 
+      where I helped to mount and repair computers, as well as to install and configure software.`
+    }
   ],
   education: [
     {
