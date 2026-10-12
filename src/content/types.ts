@@ -8,6 +8,13 @@ export interface TimelineItem {
   image?: { src: string; alt: string }
 }
 
+export interface SkillGroup {
+  title: string
+  description?: string 
+  link?: { label: string; href: string }
+  items: string[]
+}
+
 export interface Content {
   htmlLang: string
   name: string
@@ -20,4 +27,5 @@ export interface Content {
   experience: TimelineItem[]
   education: TimelineItem[]
   ui: { theme: string; language: string; image: string }
+  skills: { title: string; groups: SkillGroup[] }
 }

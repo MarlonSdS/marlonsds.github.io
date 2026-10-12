@@ -69,5 +69,29 @@ export const en: Content = {
       period: '2019 to 2022',
     },
   ],
+  skills: {
+    title: 'Technologies',
+    groups: [
+      {
+        title: 'Used at work',
+        description: `In my most recent work, at Brup EdTech, I coded a lot in pure PHP and a little in CodeIgniter 3, a framework. 
+        Eventually, the company wanted to leave legacy systems and create new ones using modern technologies. At this point, I setted up 
+        a server with Alma Linux 8 and installed PostgreSQL and a Docker container to run a system in Next.js, a framework of React thet 
+        renders its components on the server, making the website lighter for the end user. I mainly coded in TypeScript, and we used 
+        GitHub for version control and task organization throgh issues and pull requests.`,
+        items: ['TypeScript', 'Next.js', 'PHP', 'Linux', 'Docker', 'PostgreSQL'],
+      },
+      {
+        title: 'Learning',
+        description: `I've been studying the Go programming language, and the experience has felt like learning how to program for the 
+        first time all over again. Go is quite different from the languages I'm used to, most of which are interpreted languages, and it 
+        introduces many concepts that I haven't worked with before. Things like pointers, concurrency, and its approach to error handling 
+        are quite different from what I'm accustomed to, but the experience has been very interesting and rewarding. I believe learning 
+        Go will help me become a better programmer by pushing me to think differently and learn new concepts. I don't have any 
+        professional experience with Go yet, but I've been working on some personal projects that can be found on my GitHub.`,
+        items: ['Go'],
+      },
+    ],
+  },
   ui: { theme: 'Toggle light/dark theme', language: 'Language', image: 'Show complementary image' },
 }

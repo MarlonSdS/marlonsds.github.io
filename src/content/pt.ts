@@ -72,5 +72,30 @@ export const pt: Content = {
       period: '2019 a 2022',
     },
   ],
+  skills: {
+    title: 'Tecnologias',
+    groups: [
+      {
+        title: 'Uso no trabalho',
+        description: `No meu trabalho mais recente, na Brup EdTech, eu programei bastante em PHP puro e um pouco no frameworkd 
+        CodeIgniter 3. Eventualmente a empresa quis deixar os sistemas legados e criar novos, com tecnologias mais modernas. 
+        Neste ponto eu configurei um servidor Linux (Alma Linux 8) com PostgreSQL e um container Docker para rodar um sistema em 
+        Next.js, que é um framework de React que renderiza seus componentes no servidor, tornando o site mais leve para o usuário final. 
+        Nesta etapa a programção foi feita em TypeScript, usamos o github para versionamento de código e organização de tarefas através 
+        de issues e pull resquests.`,
+        items: ['TypeScript', 'Next.js', 'PHP', 'Linux', 'Docker', 'PostgreSQL'],
+      },
+      {
+        title: 'Estudando',
+        description: `Tenho estudado a linguagem de programação Go, a experiência tem sido como aprender a programar pela primeira vez 
+        de novo, esta linguagem é bem diferente e usa muitos conceitos inexistentes em linguagens com as quais estou acostumado, sendo 
+        principalmente linguagens interpretadas. Coisas como ponteiros, concorrência e a forma de lidar com erros são bem diferentes 
+        do que estou acostumado, mas é uma experiência bem interessante e enriquecedora. Acredito que aprender Go me ajudará a ser um 
+        programador melhor, pois me forçará a pensar de forma diferente e a aprender novos conceitos. Eu não tenho experiência 
+        profissional em Go, mas tenho feito alguns projetos pessoais os quais podem ser encontrados no meu GitHub.`,
+        items: ['Go'],
+      },
+    ],
+  },
   ui: { theme: 'Alternar tema claro/escuro', language: 'Idioma', image: 'Mostrar imagem complementar' },
 }
