@@ -10,9 +10,6 @@ const locales: Locale[] = ['pt', 'en']
 
 <template>
   <header class="header">
-    <!--Script de contagem de visualizações-->
-    <script data-goatcounter="https://marlonsds.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
     <div class="group" role="group" :aria-label="content.ui.language">
       <button
         v-for="l in locales"
